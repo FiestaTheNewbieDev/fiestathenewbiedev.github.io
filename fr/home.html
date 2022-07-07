@@ -24,8 +24,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Bienvenue !</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand">Bienvenue !</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,6 +36,53 @@
                 <a class="nav-item nav-link" href="#">Compétences</a>
                 <a class="nav-item nav-link" href="#">Travaux</a>
                 <a class="nav-item nav-link" href="#">Contact</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Language
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right text-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/fr/home.html">
+                            <div class="d-flex justify-content-between">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 640 480"
+                                    version="1">
+                                    <g fill-rule="evenodd" stroke-width="1pt">
+                                        <path fill="#fff" d="M0 0h640v480H0z" />
+                                        <path fill="#00267f" d="M0 0h213.337v480H0z" />
+                                        <path fill="#f31830" d="M426.662 0H640v480H426.662z" />
+                                    </g>
+                                </svg>
+                                Français
+                            </div>
+                        </a>
+                        <a class="dropdown-item" href="/en/home.html">
+                            <div class="d-flex justify-content-between">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 640 480">
+                                    <defs>
+                                        <clipPath id="a">
+                                            <path fill-opacity=".67" d="M-85.333 0h682.67v512h-682.67z" />
+                                        </clipPath>
+                                    </defs>
+                                    <g clip-path="url(#a)" transform="matrix(.94 0 0 .94 80 0)">
+                                        <g stroke-width="1pt">
+                                            <path fill="#006" d="M-256 0H768.02v512.01H-256z" />
+                                            <path
+                                                d="M-256 0v57.244l909.535 454.768H768.02V454.77L-141.515 0H-256zM768.02 0v57.243L-141.515 512.01H-256v-57.243L653.535 0H768.02z"
+                                                fill="#fff" />
+                                            <path
+                                                d="M170.675 0v512.01h170.67V0h-170.67zM-256 170.67v170.67H768.02V170.67H-256z"
+                                                fill="#fff" />
+                                            <path
+                                                d="M-256 204.804v102.402H768.02V204.804H-256zM204.81 0v512.01h102.4V0h-102.4zM-256 512.01L85.34 341.34h76.324l-341.34 170.67H-256zM-256 0L85.34 170.67H9.016L-256 38.164V0zm606.356 170.67L691.696 0h76.324L426.68 170.67h-76.324zM768.02 512.01L426.68 341.34h76.324L768.02 473.848v38.162z"
+                                                fill="#c00" />
+                                        </g>
+                                    </g>
+                                </svg>
+                                English
+                            </div>
+                        </a>
+                    </div>
+                </li>
             </div>
         </div>
     </nav>
@@ -48,3 +95,9 @@
 </body>
 
 </html>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm-fill"
+    viewBox="0 0 16 16">
+    <path
+        d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z" />
+</svg>
