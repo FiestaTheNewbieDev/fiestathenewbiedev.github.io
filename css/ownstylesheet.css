@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(#303030, grey);
+}
+
+.name-box {
+    margin: 20%;
+}
+
+@media only screen and (max-width: 480px) { 
+    .name-box {
+        margin: 0%;
+    }
+}
