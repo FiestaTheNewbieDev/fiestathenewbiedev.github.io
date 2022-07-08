@@ -6,6 +6,10 @@ body {
     background: linear-gradient(#303030, grey);
 }
 
+a {
+    transition-duration: 0.5s;
+}
+
 .name-box {
     margin-top: 20%;
     margin-bottom: 25%;
@@ -22,6 +26,34 @@ body {
     padding-right: 10%;
 }
 
+.skills-box {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.education-box {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.skill-item {
+    padding-left: 1%;
+    padding-right: 1%;
+    transition-duration: 0.5s;
+}
+.skill-item:hover {
+    background-color: #CECECE;
+    color:white;
+}
+
 @media (max-width: 480px) {
     .name-box {
         margin-top: 10%;
@@ -29,7 +61,17 @@ body {
         margin-left: 0%;
         margin-right: 0%;
     }
-    .main-box {
+    .about-box {
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 5%;
+    }
+    .skills-box {
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 5%;
+    }
+    .education-box {
         margin-left: 0%;
         margin-right: 0%;
         padding: 5%;
@@ -45,6 +87,6 @@ body {
     display: block;
     max-height: 0;
     visibility: hidden;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.5s ease-in-out;
     overflow: hidden;
   }
